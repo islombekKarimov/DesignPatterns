@@ -1,8 +1,6 @@
 package test.designPattern.creational.builder;
 
 
-import test.designPatterns.creational.builder.OrderBuilder;
-import test.designPatterns.creational.builder.OrderedItems;
 
 /**
  * Created by Islombek Karimov on 14.03.2020.

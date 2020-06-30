@@ -3,7 +3,7 @@ package test.designPattern.creational.builder;
 /**
  * Created by Islombek Karimov on 16.06.2020.
  */
-public class MediumNonVegPizza extends test.designPatterns.creational.builder.NonVegPizza {
+public class MediumNonVegPizza extends NonVegPizza {
     @Override
     public String name() {
         return "Non-Veg Pizza";

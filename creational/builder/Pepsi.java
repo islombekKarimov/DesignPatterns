@@ -1,6 +1,5 @@
 package test.designPattern.creational.builder;
 
-import test.designPatterns.creational.builder.ColdDrink;
 
 /**
  * Created by Islombek Karimov on 16.06.2020.

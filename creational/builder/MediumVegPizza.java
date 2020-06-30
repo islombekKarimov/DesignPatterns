@@ -1,11 +1,10 @@
 package test.designPattern.creational.builder;
 
-import test.designPatterns.creational.builder.*;
 
 /**
  * Created by Islombek Karimov on 16.06.2020.
  */
-public class MediumVegPizza extends test.designPatterns.creational.builder.VegPizza {
+public class MediumVegPizza extends VegPizza {
     @Override
     public String name() {
         return "Masala Pizza";
