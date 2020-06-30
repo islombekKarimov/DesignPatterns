@@ -3,7 +3,7 @@ package test.designPattern.creational.prototype;
 /**
  * Created by Islombek Karimov on 16.06.2020.
  */
-public class Square extends test.designPatterns.creational.prototype.Shape {
+public class Square extends Shape {
    String type ;
 
     @Override

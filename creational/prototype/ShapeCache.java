@@ -1,8 +1,5 @@
 package test.designPattern.creational.prototype;
 
-import test.designPatterns.creational.prototype.*;
-import test.designPatterns.creational.prototype.Shape;
-import test.designPatterns.creational.prototype.Square;
 
 import java.util.Hashtable;
 
@@ -11,19 +8,19 @@ import java.util.Hashtable;
  */
 public class ShapeCache {
 
-    private static Hashtable<String, test.designPatterns.creational.prototype.Shape> shapeHashtable = new Hashtable<>();
+    private static Hashtable<String, Shape> shapeHashtable = new Hashtable<>();
 
-    public static test.designPatterns.creational.prototype.Shape getShape(String shapeId) throws CloneNotSupportedException {
-        test.designPatterns.creational.prototype.Shape cachedShape = shapeHashtable.get(shapeId);
-        return (test.designPatterns.creational.prototype.Shape) cachedShape.clone();
+    public static Shape getShape(String shapeId) throws CloneNotSupportedException {
+        Shape cachedShape = shapeHashtable.get(shapeId);
+        return (Shape) cachedShape.clone();
     }
 
     public static void loadCache() throws CloneNotSupportedException {
-        test.designPatterns.creational.prototype.Rectangle rectangle = new test.designPatterns.creational.prototype.Rectangle();
+       Rectangle rectangle = new Rectangle();
         rectangle.setId("1");
-        shapeHashtable.put(rectangle.getId(), (test.designPatterns.creational.prototype.Shape) rectangle.clone());
+        shapeHashtable.put(rectangle.getId(), (Shape) rectangle.clone());
 
-        test.designPatterns.creational.prototype.Square square = new Square();
+       Square square = new Square();
         square.setId("2");
         shapeHashtable.put(square.getId(), (Shape) square.clone());
     }

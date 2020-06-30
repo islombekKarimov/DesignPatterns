@@ -1,7 +1,5 @@
 package test.designPattern.creational.factory;
 
-import test.designPatterns.creational.factory.Shape;
-import test.designPatterns.creational.factory.ShapeFactory;
 
 /**
  * Created by Islombek Karimov on 15.06.2020.

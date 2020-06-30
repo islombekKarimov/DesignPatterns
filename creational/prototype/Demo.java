@@ -1,7 +1,5 @@
 package test.designPattern.creational.prototype;
 
-import test.designPatterns.creational.prototype.Shape;
-import test.designPatterns.creational.prototype.ShapeCache;
 
 /**
  * Created by Islombek Karimov on 16.06.2020.
